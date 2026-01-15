@@ -14,7 +14,7 @@ def search_foods(query: str, api_key: Optional[str] = None, data_type: Optional[
     
     Args:
         query: Search query string (e.g., "onion")
-        api_key: USDA API key (optional, will use USDA_API_KEY from .env if not provided)
+        api_key: USDA API key 
         data_type: Filter by data type (e.g., "Foundation,SR Legacy" for generic foods, excludes branded)
     
     Returns:
