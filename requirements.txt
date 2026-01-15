@@ -1,0 +1,6 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+# MCP SDK requires Python 3.10+
+# Install with: pip install git+https://github.com/modelcontextprotocol/python-sdk.git
+git+https://github.com/modelcontextprotocol/python-sdk.git
+
